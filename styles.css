@@ -113,10 +113,6 @@ header {
     top: 0;
 }
 
-.header h1 {
-    
-}
-
 .header img {
     position: relative;
     display: flex;
@@ -129,13 +125,13 @@ header {
     color: aliceblue;
     text-align: center;
     background: url(images/Arunachal-Pradesh-India.jpg) no-repeat center top;
-	margin: 0;
-	overflow: hidden;
-	padding: 5%;
-	/* position: relative; */
-	/* width: 100%; */
+    margin: 0;
+    overflow: hidden;
+    padding: 5%;
+    /* position: relative; */
+    /* width: 100%; */
     background-size: 100% 100%;
-    
+
 
 }
 
@@ -143,26 +139,26 @@ header {
     text-align: center;
 }
 
-.content h1{
+.content h1 {
     color: rgb(255, 255, 255);
     font-size: 250%;
     font-family: Arial Rounded MT, Helvetica, sans-serif;
     padding: 0 4%;
     font-weight: bold;
     /* filter: blur(0.5px); */
-    
+
 }
 
 .content h1:hover {
     color: rgb(202, 202, 202);
 }
 
-.content img{
+.content img {
     height: auto;
     width: 20%;
 }
 
-hr{
+hr {
     border: none;
     height: 3px;
     background: linear-gradient(to right, green, lime);
@@ -173,15 +169,18 @@ hr{
 .elements {
     margin: 1% 1%;
     text-align: center;
+    overflow: auto;
 }
 
-/* .elements h1 {
-
-} */
+.elemental {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 
 .elements img {
     height: 40%;
     width: 40%;
+
 }
 
 .content-image-left {
@@ -200,18 +199,25 @@ hr{
     border-radius: 20px;
 }
 
+
+
 .information {
     font-weight: 600;
     /* display: inline block; */
     box-sizing: border-box;
 }
 
-#test h1{
+
+
+.test h1 {
     color: rgb(26, 43, 30);
     text-decoration: underline;
+    padding: 1.5%;
 }
 
 p {
+    font-size: 80%;
+    /* color: rgb(0, 66, 24); */
     color: rgb(54, 53, 75);
 }
 
@@ -223,9 +229,10 @@ p {
     font-size: 500%;
     margin: 1% 0 2% 0;
     color: rgb(23, 36, 26);
+    padding: 0.5%;
 
 }
 
-.main-heading:hover{
+.main-heading:hover {
     text-decoration: underline;
 }
